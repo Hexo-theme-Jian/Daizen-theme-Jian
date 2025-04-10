@@ -1,4 +1,4 @@
-module github.com/OblivionOcean/Daizen-theme-Jian
+module github.com/Hexo-theme-Jian/Daizen-theme-Jian
 
 go 1.24.0
 
