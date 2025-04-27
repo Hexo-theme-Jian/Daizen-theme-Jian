@@ -25,23 +25,6 @@
                 <%# } %>
             </div>
             <hr style="border-color: #ddd">
-            <!--
-            <%# if (page.authors) { %>
-                <div class="authors" style="display: flex;flex-direction: row;justify-content: center">
-                    <%# for (i in page.authors) { %>
-                        <a class="user-card" target="_blank" href="<%#= page.authors[i].url || '' %>"
-                           title="<%#= page.authors[i].name %>">
-                            <img class="avatar" height="60" width="60" src="<%#= page.authors[i].avatar %>"
-                                 alt="<%#= page.authors[i].name %>">
-                            <div class="info">
-                                <p class="name"><%#= page.authors[i].name.slice(0, 6) %></p>
-                                <p class="introduction"><%#= page.authors[i].type.slice(0, 8) %></p>
-                            </div>
-                        </a>
-                    <%# } %>
-                </div>
-
-            <%# } %>-->
         </div>
         <% if (site.Theme.Cfg.GetBool("plugins.aiSummary.enable")){ %>
             <%#- partial('_plugins/ai-summary.ejs') %>
